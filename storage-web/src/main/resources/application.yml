@@ -1,0 +1,15 @@
+amazon:
+  region: <region>
+  access:
+    access-key-id: <access-key-id>
+    access-key-secret: <access-key-secret>
+  s3:
+    url: <url>
+    bucket-name: <bucket-name>
+
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
